@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fujifilm</title>
+        <link rel="icon" href="asset/img/Fujifilm Logo.png">
+        <img src="asset/img/camera header.jpg" alt="header camera" width="100%" height="100%">
+    </head>
+    <body>
+        <header> 
+            <nav>
+                <ul> 
+                    <li><a href="#About Us">About Us</a></li>
+                    <li><a href="#Products">Products</a></li>
+                    <li><a href="#Galery">Galery</a></li>
+                    <li><a href="#Order">Order</a></li>
+                    <li><a href="#Contact Us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    <!--Beginning of content--> 
+        <main>
+            <section class="About Us"> 
+            <h1 id="About Us">About Us</h1>
+                <p> We believe that every precious moment deserves to be captured. We are a leading provider of cameras and accessories, 
+                    offering a wide range of products for photographers of all skill levels. With over 10 years of experience in the industry, 
+                    we are committed to providing quality products and the best customer service.<br>
+                    Our mission is to help you find the right tools to explore your creativity. We also offer resources and tutorials to enhance your photography skills. 
+                    Our vision to become the go-to destination for all photography enthusiasts by providing the best products and unmatched support.</p>
+            </section>
+            <hr>
+
+            <section class="Products"> 
+                <h1 id="Products">Products</h1>
+                <nav>
+                    <ul>
+                        <li><a href="catalogue/GFX100.html">GFX Camera</a><br></li>
+                        <li><a href="catalogue/GFXLens.html">GFX Lens</a><br></li>
+                        <li><a href="catalogue/X-SeriesCamera.html">X-Series Camera</a></li>
+                        <li><a href="catalogue/X-SeriesLens.html">X-Series Lens</a></li>
+                        <li><a href="catalogue/X-SeriesPCompact.html">X-Series Premium Compact</a></li>
+                    </ul>
+                    <p><a href="#Order">Order</a> and enjoy free shipping on your first purchase!</p>
+                </nav>
+            </section>
+            <br>
+            <hr>
+            <section class="Galery">
+                <h1 id="Galery">Galery</h1>
+                <P>Capture your color of live with us!</P>
+                    <a href="catalogue/Galery.html">X-Series Premium Compact XF10 </a>
+            </section>
+            <br>
+            <hr>
+            <section class="Order">
+                <h1 id="Order">Order</h1>
+                <form action="/Submit.html" aria-required="true">    
+                    <fieldset> 
+                        <legend><strong>Form Order</strong></legend>
+                        <br>
+                        <section class="customer personal info"> 
+                            <label for="Name"><strong>Name : </strong></label>
+                                <input type="text" name="name" placeholder="Input Name" required><br><br>
+                            <label for="Email"><strong>Email :</strong></label>
+                                <input type="text" email="email" placeholder="Input Email" required><br>
+                        </section>
+                    <br>
+                    <section class="Item">
+                        <label for="Item"><strong>Item : </strong></label>
+                            <select name="Item" id="Item" required>
+                                <option value=""selected disabled>Select your order</option>
+                                <option value="GFX Camera">GFX Camera</option>
+                                <option value="GFX Lens">GFX Lens</option>
+                                <option value="X-Series Camera">X-Series Camera</option>
+                                <option value="X-Series Lens">X-Series Lens</option>
+                                <option value="X-Series Premium Compact">X-Series Premium Compact</option>
+                            </select>
+                            <br><br>
+                        <div class="Accessories" aria-required="">
+                            <label for="Accessories"><strong>Accessories : </strong> : </label><br>
+                                <input type="checkbox" name="Accessories" id="Lens Hood">
+                                <label for="Lens Hood">Lens Hood</label><br>
+                                <input type="checkbox" name="Accessories" id="Protector Filter">
+                                <label for="Protector Filter">Protector Filter</label><br>
+                                <input type="checkbox" name="Accessories" id="Hand Grip">
+                                <label for="Hand Grip">Hand Grip</label><br>
+                                <input type="checkbox" name="Accessories" id="Leather Case">
+                                <label for="Leather Case">Leather Case</label>
+                        </div>
+                    </section>
+                    <hr>
+                    <div class="Delivery Detail">
+                    <section class="Delivery Type" aria-required="false">
+                        <Label><strong>Delivery Type : </strong></Label><br>
+                            <label for="Delivery Type">
+                                <input type="radio" name="Delivery Type" value="Pickup">Pickup</label><br>
+                            <label for="Delivery Type">
+                                <input type="radio" name="Delivery Type" value="Delivery">Delivery</label>
+                            <br>
+                    </section>
+                    <br>
+                    <section class="Delivery to" aria-required="false">
+                        <label for="street"><strong>Street Address:</strong></label>
+                            <input type="text" id="street" name="street" required><br><br>
+                        <label for="Detail"><strong>Detail Address:</strong></label><br>
+                            <textarea id="Detail Address" name="Detail Address" rows="5" cols="20" placeholder="Enter your detail here..." required></textarea><br><br>
+                        <label for="city"><strong>City : </strong></label>
+                            <input type="text" id="city" name="city" required><br><br>
+                        <label for="state"><strong>State: </strong></label>
+                            <input type="text" id="state" name="state" required><br><br>
+                        <label for="zip"><strong>ZIP Code: </strong></label>
+                            <input type="text" id="zip" name="zip" required pattern="\d{5}"><br><br>
+                        <label for="country"><strong>Country:</strong></label>
+                            <select id="country" name="country" required>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Malaysia">Malaysia</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Thailand">Thailand</option>
+                            </select>
+                    </div>
+                    </section>
+                    <br>
+                    <button type="Submit" value="Send Request">Send Request</button>
+                </fieldset> 
+                </form> 
+            </section>
+            <br>
+            <hr>
+        </main>
+        <footer>
+            <section class="Contact Us">
+                <h1 id="Contact Us">Contact Us</h1>
+                    <address>
+                    Contact us <a href="mailto:Sales_Fujifilm@example.com">Sales Fujifilm</a> <br> 
+                    Visit us at: <a href="/https://fujifilm-x.id/store-locatorFujifilm.com"> fujifilm-x.id </a> <br>
+                    <a href="/https://www.google.com/search?sca_esv=b90d53d636259e2e&cs=0&output=search&q=Grand+Indonesia&ludocid=12703781993938620889&lsig=AB86z5U9w4nGjxn17h5dVsU2o7tV&sa=X&ved=2ahUKEwi4__PbuaiJAxUuT2cHHVbRLDwQ8G0oAHoECB4QAQ&biw=1106&bih=914&dpr=1.6">Mall Grand Indonesia</a><br>
+                    East Mall 3A Floor. EM3A-23, Jl. M.H. Thamrin No.1, Kebon Melati, <br>
+                    Tanah Abang, Jakarta 10310<br>
+                    Indonesia
+                    </address>
+            </section>
+            <!--end of content-->    
+            <hr>
+            <p>&copy; 2024 RevoU Student - anggreinipra. All Rights Reserved<br>
+                (for Submission Module 1 Assignment Checkpoint#1 - Program FSSE Paris Section, Oct 2024)</p>
+        </footer>
+    </body>
+</html>
