@@ -5,6 +5,9 @@
 Welcome to the Fujifilm Website! <br>
 This project is an HTML-based website designed to showcase a variety of cameras and related accessories. Users can browse products, view details, and make informed purchasing decisions.
 
+## Link Deployment
+https://anggreinipra.github.io/module-1-anggreinipraFCP/
+
 ## Table of Contents
 
 - [Features](#features)
@@ -63,7 +66,7 @@ We welcome contributions! If you'd like to contribute to the project, please fol
 
 ## License
 
-This project is licensed exclusively for Submission as part of the RevoU student Assignment Module 1 Checkpoint#1. 
+This project is licensed exclusively for Submission as part of the RevoU student Assignment Module 1 Final Check Point. 
 
 ---
 &copy; 2024 RevoU Student - anggreinipra. All Rights Reserved
