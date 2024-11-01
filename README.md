@@ -6,7 +6,7 @@ Welcome to the Fujifilm Website! <br>
 This project is an HTML-based website designed to showcase a variety of cameras and related accessories. Users can browse products, view details, and make informed purchasing decisions.
 
 ## Link Deployment
-https://anggreinipra.github.io/module-1-anggreinipraFCP/
+https://visionary-crisp-41a2dc.netlify.app/
 
 ## Table of Contents
 
